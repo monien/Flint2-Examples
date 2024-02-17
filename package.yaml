@@ -9,6 +9,7 @@ copyright:          "2023 Hartmut Monien"
 extra-source-files:
 - README.md
 - CHANGELOG.md
+- app/real_roots/z_param.h
 
 extra-doc-files:  docs/*.png
 
@@ -150,7 +151,7 @@ executables:
     include-dirs:
       - app/real_roots
     install-includes:
-      - app/real_roots/z_param.h
+      - z_param.h
   stirling_matrix:
     source-dirs: app/stirling_matrix
     main: Main.hs
